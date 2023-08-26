@@ -137,6 +137,7 @@ button#activate.pushed {
 
 .warning {
   position: absolute;
+  border-radius: 10px;
   z-index: 0;
   width: 45vmin;
   height: 45vmin;
@@ -149,7 +150,9 @@ button#activate.pushed {
   );
   transform: rotateX(-35deg) rotateY(45deg) rotateZ(0deg)
     rotate3d(1, 0, 0, 90deg);
-  box-shadow: 0 0 0 3vmin #af0000;
+    background: #af000060;
+
+  box-shadow: 0 0 0 3vmin #af000060;
 }
 
 .warning:before {
@@ -163,13 +166,16 @@ button#activate.pushed {
   border: 1vmin solid yellow;
   border-radius: 1vmin;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .warning:after {
   color: white;
   transform: rotate(90deg);
   float: left;
-  background: #af0000;
+  border-radius: 10px;
+  border: 1px solid #af0000;
+  background: #af000060;
   position: absolute;
   bottom: 18.5vmin;
   left: -35vmin;
@@ -234,7 +240,9 @@ button#activate.pushed {
   font-size: 5vmin;
   text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
   perspective-origin: left;
-  background: #af0000;
+  border-radius: 10px;
+  border: 1px solid #af0000;
+  background: #af000060;
   padding: 1vmin;
   transform: rotateX(-35deg) rotateY(45deg) rotateZ(0deg)
     rotate3d(1, 0, 0, 90deg) translate(33.5vmin, -2vmin);
