@@ -12,7 +12,6 @@
 
 .base {
   background: #cacaca;
-  width: 20vmin;
   border-radius: 27vmin;
   box-shadow: 0 6vmin 0.15vmin 0vmin #777, 0 4vmin 0.15vmin 0vmin #777,
     0 2vmin 0.15vmin 0vmin #777;
@@ -167,7 +166,6 @@ button#activate.pushed {
 }
 
 .warning:after {
-  content: "WARNING:\2009 DANGER";
   color: white;
   transform: rotate(90deg);
   float: left;
@@ -393,7 +391,6 @@ div#turnoff.close:after {
 
 div#closing:before,
 div#closing:after {
-  content: "";
   width: 50vw;
   height: 1.5vh;
   left: -50vw;

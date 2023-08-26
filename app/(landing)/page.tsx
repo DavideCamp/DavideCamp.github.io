@@ -23,7 +23,6 @@ export default function Home() {
 
   return (
     <div className={style.body}>
-    <div className={style.grid}></div>
     <div className={style.warning}></div>
     <div className={style.base}>
       <button id={style.activate} className={`${activateBtn ? style.pushed : ''}`} onClick={handleTime}>
@@ -43,7 +42,7 @@ export default function Home() {
 
     <div className={style.hinges}></div>
 
-    <div className={style.text}>SELF-&thinsp;DESTRUCT</div>
+    <div className={style.text}>Press The Button</div>
 
     <div id={style.panel} className={`${alarm ? style.show : ''}`}>
       <div id={style.msg}>DEVICE SELF-DESTRUCTION</div>
