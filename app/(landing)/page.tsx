@@ -55,8 +55,6 @@ export default function Home() {
     <div id={style.closing}></div>
 
     <div id={style.restart}><button id={style.reload}></button></div>
-
-    <div id={style.mute}></div>
     </div>
   )
 }
